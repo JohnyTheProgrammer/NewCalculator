@@ -2,10 +2,11 @@ package hometask3;
 
 public class ModulDivine {
     public static void main(String[] args) {
-        divineFunction(12);
+        divineFunc(12);
+        System.out.println("git changes");
     }
 
-    public static boolean divineFunction(int x){
+    public static boolean divineFunc(int x){
         boolean indentifier;
         if(x%2 == 1){
             indentifier = false;
