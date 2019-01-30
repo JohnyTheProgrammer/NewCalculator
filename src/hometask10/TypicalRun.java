@@ -11,7 +11,7 @@ public class TypicalRun {
         for (int i = 0; i < random_array.length; i++) {
             random_array[i] = Helper.getRandomNumber(1,100);
         }
-        System.out.println(EvenOddSummary.summaryForEvenOddNumbers(random_array)); // 1
+       // System.out.println(EvenOddSummary.summaryForEvenOddNumbers(random_array)); // 1
 
        //char[]  chArr =  {'r', 'o', 'l', 'o', 'c'}; //2
         // System.out.println(CharColor.colors(chArr)); // 2
@@ -24,6 +24,6 @@ public class TypicalRun {
 
        //System.out.println( CompareTwoArrays.funcToCompareTwoArrays(arr,random_array)); // 6
 
-       // CopyMyArrayPlz.copyArray(random_array); // 7
+       CopyMyArrayPlz.copyArray(random_array); // 7
     }
 }

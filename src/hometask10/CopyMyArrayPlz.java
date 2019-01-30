@@ -2,18 +2,22 @@ package hometask10;
 
 public class CopyMyArrayPlz {
     public static int []copyArray(int [] src)  {
-        int [] yourNewArray = new int[src.length];
+        int [] yourArray = new int[src.length];
         System.out.println("Old array");
         for (int i = 0; i < src.length; i++) {
             System.out.print(src[i] + "; ");
         }
-        yourNewArray = src;
+
+        for (int i = 0; i < src.length; i++) {
+           yourArray[i] = src[i];
+        }
+
         System.out.println("New array");
-        showNewArray(yourNewArray);
-        return yourNewArray;
+        showMeArray(yourArray);
+        return yourArray;
     }
 
-    public static void showNewArray(int []yourNewArray) {
+    public static void showMeArray(int []yourNewArray) {
         for (int i = 0; i < yourNewArray.length; i++) {
             System.out.print(yourNewArray[i] + "; ");
         }
