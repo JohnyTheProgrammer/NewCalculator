@@ -14,7 +14,7 @@ package hometask14;
 public class Bicycle {
     private static int howMuchProduced;
     public static boolean mechanical;
-    private
+
     int salePercent;
     int wheels;
     String color;
@@ -23,4 +23,14 @@ public class Bicycle {
     public Bicycle(){
         howMuchProduced++;
     };
+    public void salePercentHigher(){
+        salePercent += 10;
+    }
+    public void salePercentLoweer(){
+        salePercent -= 10;
+    }
+
+    public static int getHowMuchProduced() {
+        return howMuchProduced;
+    }
 }

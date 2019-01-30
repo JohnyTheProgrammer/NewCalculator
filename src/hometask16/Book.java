@@ -5,4 +5,5 @@ package hometask16;
 //        информацию об авторе книги.
 
 public class Book {
+
 }

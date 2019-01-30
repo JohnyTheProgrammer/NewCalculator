@@ -6,5 +6,12 @@ public class RunMyBicycle {
             Bicycle BMX = new Bicycle();
             Bicycle PRIDE = new Bicycle();
             Bicycle Comanche = new Bicycle();
+            Comanche.salePercentHigher();
+        System.out.println(Comanche.salePercent);
+        Comanche.salePercentHigher();
+        System.out.println(Comanche.salePercent);
+        Comanche.salePercentHigher();
+        System.out.println(Comanche.salePercent);
+        System.out.println(Bicycle.getHowMuchProduced());
     }
 }
