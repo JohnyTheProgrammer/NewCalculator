@@ -10,7 +10,7 @@ public class RunMyBicycle {
         System.out.println(Comanche.salePercent);
         Comanche.salePercentHigher();
         System.out.println(Comanche.salePercent);
-        Comanche.salePercentHigher();
+        Comanche.salePercentLower();
         System.out.println(Comanche.salePercent);
         System.out.println(Bicycle.getHowMuchProduced());
     }

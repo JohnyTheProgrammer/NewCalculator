@@ -4,16 +4,23 @@ package hometask16;
 //        год рождения;
 
 public class Author {
-    String name;
-    String surname;
-    int date;
+    private String authorName;
+    private String surname;
+    private int date;
+public Author(){
 
+}
+    public Author( String authorName, String surname, int date){
+        this.authorName = authorName;
+        this.surname = surname;
+        this.date = date;
+    }
     public String getName() {
-        return name;
+        return authorName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String authorName) {
+        this.authorName = authorName;
     }
 
     public String getSurname() {

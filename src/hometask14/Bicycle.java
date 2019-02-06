@@ -26,7 +26,7 @@ public class Bicycle {
     public void salePercentHigher(){
         salePercent += 10;
     }
-    public void salePercentLoweer(){
+    public void salePercentLower(){
         salePercent -= 10;
     }
 
