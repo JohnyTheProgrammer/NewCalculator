@@ -61,25 +61,25 @@ public class ManagementDepartment {
 
 public void showFilteredEmployers(Employee employArray[]){
     for (int i = 0; i < employArray.length; i++) {
-        try{
+
 //здесь код, который потенциально может привести к ошибке
-        System.out.print( i + "\t" + employArray[i].getName()+ "\t");
-        System.out.print(employArray[i].getYear() + "\t");
-        System.out.print(employArray[i].getSalary() + "\t");
-        System.out.println(employArray[i].getSex() + "\t");
-    }
-        catch(NullPointerException a){
-            break;
+        if (employArray[i] != null) {
+            System.out.print((i + 1) + ":\t" + employArray[i].getName() + "\t");
+            System.out.print(employArray[i].getYear() + "\t");
+            System.out.print(employArray[i].getSalary() + "\t");
+            System.out.println(employArray[i].getSex() + "\t");
+
+        }
 ////здесь описываются действия, направленные на обработку исключений
    }
-    }
+
 }
     public void showAllEmployers(ManagementDepartment depart){
         for (int i = 0; i < ManagementDepartment.employeeCounter + 1; i++) {
             if(ManagementDepartment.employeeCounter > ManagementDepartment.MAXDEPARTMENTSIZE){
                 break;
             }
-            System.out.print((i+1) + ":\t" +depart.employers[i].getName()+ "\t");
+            System.out.print((i+1) + ":\t" + depart.employers[i].getName()+ "\t");
             System.out.print(depart.employers[i].getYear() + "\t");
             System.out.print(depart.employers[i].getSalary() + "\t");
             System.out.print(depart.employers[i].getSex() + "\t");
