@@ -38,4 +38,7 @@ package hometask22;
 //
 //        Протестируйте и проверьте, что вызов метода loudSay() над объектом типа Labrador выведет трижды слово “Woof”.
 public class Mainmain {
+    public static void main(String[] args) {
+
+    }
 }

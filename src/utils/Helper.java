@@ -40,7 +40,12 @@ public class Helper {
         return randomSign;
     }
 
-    public static int getInputKeyboard() {
+    public static String getInputKeyboardString() {
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
+    }
+
+    public static int getInputKeyboardInt() {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }

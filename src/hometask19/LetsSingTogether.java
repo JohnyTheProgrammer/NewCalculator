@@ -1,13 +1,13 @@
 package hometask19;
 
-import utils.Helper;
+        import utils.Helper;
 
 public class LetsSingTogether {
     public static void main(String[] args) {
         Pet myLovelyPets[] = new Pet[10];
 
         for (int i = 0; i < myLovelyPets.length; i++) {
-                int numberForSwitch = Helper.getRandomNumber(1, 3);
+            int numberForSwitch = Helper.getRandomNumber(1, 3);
             switch (numberForSwitch) {
                 case 1:
                     myLovelyPets[i] = new Cat();

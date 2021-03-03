@@ -10,7 +10,7 @@ public class GameNumbers {
 
         while(condition)
        {
-           game(my_secret_number, Helper.getInputKeyboard());
+           game(my_secret_number, Helper.getInputKeyboardInt());
        }
     }
 

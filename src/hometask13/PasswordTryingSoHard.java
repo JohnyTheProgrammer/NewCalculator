@@ -34,8 +34,7 @@ public class PasswordTryingSoHard {
        char[][] password = new char[ARRAY_SIZE][PASSWORD_LENGHT];
 
        String passForLastCompare = new String();
-       passForLastCompare = pseudoPassGenerator();
-       for (int z = 0; z < 1000; z++) {
+       for (int z = 0; z < 154; z++) {
            int LOWER_Counter = 0, UPPER_Counter = 0, DIGITS_Counter = 0, PUNCTUATION_Counter = 0;
            passForLastCompare = pseudoPassGenerator();
 
